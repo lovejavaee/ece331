@@ -23,7 +23,6 @@ Due to Si=xiO+yi○+ci，Ci+1=xi*yi+ci*（xi+yi）
 => c1=1,s0=0;c2=1,s1=0;c3=1,s2=0;c4=1,s3=1;
 
 ## 3
-
 ### a. 
   two
 ### b.
