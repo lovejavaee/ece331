@@ -25,11 +25,25 @@ Due to Si=xiO+yi○+ci，Ci+1=xi*yi+ci*（xi+yi）
 ## 3
 ### a. 
   two
+  ![(a)](https://github.com/lovejavaee/ece331/blob/homework2/images/3-a.png?raw=true)
 ### b.
   so 3*5=15
+   ![(b)](https://github.com/lovejavaee/ece331/blob/homework2/images/3-b.png?raw=true)
 ### c.
   T=(3-1)*20+max(10,20)=60ns
 ## 4
+ ![4-a](https://github.com/lovejavaee/ece331/blob/homework2/images/4-a.png?raw=true)
+ ![4-b](https://github.com/lovejavaee/ece331/blob/homework2/images/4-b.png?raw=true)
+ ![4-c](https://github.com/lovejavaee/ece331/blob/homework2/images/4-c.png?raw=true)
 ## 5
+![5-a](https://github.com/lovejavaee/ece331/blob/homework2/images/5-a.png?raw=true)
+![5-b](https://github.com/lovejavaee/ece331/blob/homework2/images/5-b.png?raw=true)
+![5-c](https://github.com/lovejavaee/ece331/blob/homework2/images/5-c.png?raw=true)
+![5-d](https://github.com/lovejavaee/ece331/blob/homework2/images/5-d.png?raw=true)
+
 ## 6
 In integers, by using 2's complement for negative numbers makes the arithmetic easy; we can add two numbers together without thinking about whether number is positive or negative, and get the right answer. This won't work for floating point numbers because the exponents need to be manipulated; if we are using a 2's complement representation for the entire word we'd have to reconstruct the exponent any time we wanted to add or subtract, so it wouldn't gain us anything; in fact, trying to do arithmetic involving a negative number would involve converting it to positive first.The exponent = 0 can be used to represent the smallest number.To represent NaN (Not a number) : if all bits of exponent are 1, and any of the matissa bits are 1.
+
+## 7
+![7-a](https://github.com/lovejavaee/ece331/blob/homework2/images/7-a.png?raw=true)
+![7-b](https://github.com/lovejavaee/ece331/blob/homework2/images/7-b.png?raw=true)
