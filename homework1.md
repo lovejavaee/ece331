@@ -12,22 +12,18 @@
 	 		sub  $t1, $t0, $s1
 	 		srl  $t2, $s2, 1
 	 		add  $s0, $t1, $t2
-	Q. How many bits are needed in the register file to store the data for each C
+### Q. How many bits are needed in the register file to store the data for each C
 	statement?
-	A.
 	   a. addi $s0, $s1, -100
 	   b. sll $s0, $s0, 4
-	Q. How can the two MIPS instructions above be represented using C code?
-	A. 
-		a. f = x - 100
-		b. f = f << 4
-	Q. Why are constants in I-type instructions represented in 2's complement
-	format?
-	A.  (1) Simplify the operation rules by enabling the sign bit to participate in the operation together 	with the rms part.
-	    (2) Converting the subtraction operation into an addition operation, further simplifying the 	circuit design of the arithmetic unit in the computer.
-	Q. What is the largest value (in decimal) that can be represented in the im-
-	mediate filed of an I-type instruction?
-	A. 2^^16
+### Q. How can the two MIPS instructions above be represented using C code? 
+	a. f = x - 100
+	b. f = f << 4
+### Q. Why are constants in I-type instructions represented in 2's complement format?
+	(1) Simplify the operation rules by enabling the sign bit to participate in the operation together with the rms part.
+	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
+### Q. What is the largest value (in decimal) that can be represented in the immediate filed of an I-type instruction?
+	2^^16
 	
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
@@ -57,8 +53,8 @@
 	b. R-type
 ## 6.
 ### Q.For the instructions above, show the hexadecimal representations of the instructions.
-A.  a. 0x012A8022(000000	01001	01010	10000	00000	100010)
-    b. 0x8D100008(100011	01000	10000	0000000000001000)
+	a. 0x012A8022(000000	01001	01010	10000	00000	100010)
+	b. 0x8D100008(100011	01000	10000	0000000000001000)
 ### Q.Indicate the type of each instruction
 	a. R-type
 	b. I-type
@@ -67,7 +63,7 @@ A.  a. 0x012A8022(000000	01001	01010	10000	00000	100010)
 	b. 23 8 10 8
 ## 7. 
 ### Patterson and Hennessy; Exercises 2.18.1:
-A. opcode would be 8 bits, rs, rt, rd fields all would be 7 bits, because Log2(128)=7
+	opcode would be 8 bits, rs, rt, rd fields all would be 7 bits, because Log2(128)=7
 
 ### Patterson and Hennessy; Exercises 2.18.2:
-A. opcode would be 8 bits, rs and rt fields all would be 7 bits, because Log2(128)=7
+	opcode would be 8 bits, rs and rt fields all would be 7 bits, because Log2(128)=7
