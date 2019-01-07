@@ -48,7 +48,7 @@ we can add two numbers together without thinking about whether number is positiv
 This won't work for floating point numbers because the exponents need to be manipulated; if we are using a 2's complement representation for the entire word we'd have to reconstruct the exponent any time we wanted to add or subtract, so it wouldn't gain us anything; in fact, trying to do arithmetic involving a negative number would involve converting it to positive first.
 
 ### What number is indicated if the value stored in the exponent is zero?
-The exponent equals zero can be used to represent the smallest number.
+The smallest number.
 
 ### What exponent and fraction are used to represent "not-a-number"?
 when all bits of exponent are 1, and any of the mantissa bits are 1.
