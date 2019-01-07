@@ -17,8 +17,8 @@ b. f = z + 24 - x + y/2
 	a. 96 bits
 	b. 128 bits
 ### Q. How many bits are needed in the register file to store the data for each C statement?
-	a. 192 bits
-	b. 192 bits
+	a. 128 bits
+	b. 128 bits
 	
 a. addi $s0, $s1, -100
 
