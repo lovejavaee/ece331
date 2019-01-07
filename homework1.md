@@ -14,11 +14,11 @@ b. f = z + 24 - x + y/2
 	 srl  $s2, $s2, 1
 	 add  $s0, $s0, $s2
 ### Q. How many bits are needed to encode the above instructions for each C statement?
-	a. 3*32 bits = 96 bits
-	b. 4*32 bits = 128 bits
+	a. 3*32 = 96 bits
+	b. 4*32 = 128 bits
 ### Q. How many bits are needed in the register file to store the data for each C statement?
-	a. 4*32 bits = 128 bits
-	b. 4*32 bits = 128 bits
+	a. 4*32 = 128 bits
+	b. 4*32 = 128 bits
 	
 a. addi $s0, $s1, -100
 
