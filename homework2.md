@@ -14,13 +14,13 @@ Conditional branch instruction that occurs when the contents of two registers ar
 ### Does overflow occur in this case?
   No
 ### How do you know?
-  Si=xi⊕yi⊕ci，Ci+1 = Xi•Yi+Ci•(Xi+Yi)
-  =>c1=1,s0=0;c2=1,s1=0;c3=1,s2=0;c4=0,s3=1;
+  Si=Xi⊕Yi⊕Ci，Ci+1 = Xi•Yi+Ci•(Xi+Yi)
+  => C1=1,S0=0; C2=1,S1=0; C3=1,S2=0; C4=0,S3=1;
 ### Suppose the values are four bit 2’s complement values. Does overflow occur if the two values are added in this case?
   Yes
 ### How do you know?
-  Si=xi⊕yi⊕ci，Ci+1=xi*yi+ci*（xi+yi）
-=> c1=1,s0=0;c2=1,s1=0;c3=1,s2=0;c4=1,s3=1;
+  Si=Xi⊕Yi⊕Ci，Ci+1=Xi•Yi+Ci•(Xi+Yi)
+  => C1=1,s0=0; C2=1,S1=0; C3=1,S2=0; C4=1,S3=1;
 
 ## 3
 ### a. 
