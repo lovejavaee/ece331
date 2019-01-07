@@ -17,6 +17,10 @@ b. f = z + 24 - x + y/2
 	a. 192 bits
 	b. 192 bits
 	
+### Q. How many bits are needed in the register le to store the data for each C statement?
+	a. 
+	b. 
+	
 a. addi $s0, $s1, -100
 
 b. sll $s0, $s0, 4
