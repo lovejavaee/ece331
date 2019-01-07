@@ -31,7 +31,6 @@ b. sll $s0, $s0, 4
 	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
 ### Q. What is the largest value (in decimal) that can be represented in the immediate filed of an I-type instruction?
 	2^^15-1/+32,767
-	
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
 	a. lw  $t0, 4($s1), 4($s2)
@@ -41,8 +40,12 @@ b. sll $s0, $s0, 4
 	a. 3
 	b. 1
 ### Q. For the C statements, how many different registers are needed to carry out the C statements.
-	a.
-	b.
+	a. 4
+	b. 3
+## 3.
+### Q. What is the value of G?
+	a. G=D2=1
+	b. G=D5=0
 ## 4.
 ### Q. Translate the following MIPS code to C code.
   ```
