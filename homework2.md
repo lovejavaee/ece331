@@ -4,7 +4,7 @@
 ### j:
 jump to destination address，The address in the instruction is a word address, so it needs to be multiplied by 4 to convert to a byte address.
 ### jal:
- junp and link，The address in the instruction is also a word address, multiplied by 4 to convert to a byte address.Generally used for the main program call function when the jump, set the return address of the function in the main program jump instruction next instruction, meaning that after the execution of the function will have to go back to the main program to continue to execute.The register $ra is used specifically to hold the return address of the function.
+ jump and link，The address in the instruction is also a word address, multiplied by 4 to convert to a byte address.Generally used for the main program call function when the jump, set the return address of the function in the main program jump instruction next instruction, meaning that after the execution of the function will have to go back to the main program to continue to execute.The register $ra is used specifically to hold the return address of the function.
 ### jr:
  jump to the location indicated in the register，Jump to the address in the register.Generally used for function execution after the return of the main function jump.
 ### beq:
