@@ -5,9 +5,9 @@ a. f = x*4 + y - z
 b. f = z + 24 - x + y/2
 ### Q. For each C statement above, what is the corresponding MIPS code?
 	a.
-	 sll $t0, $s1, 2
-	 add $t0, $t0, $s2
-	 sub $s0, $t0, $s3
+	 sll $s0, $s1, 2
+	 add $s0, $s0, $s2
+	 sub $s0, $s0, $s3
 	b.
 	 addi $t0, $s3, 24
 	 sub  $t1, $t0, $s1
