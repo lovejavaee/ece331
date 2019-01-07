@@ -1,26 +1,28 @@
 # homework1
 ## 1.
 a. f = x*4 + y - z
+
 b. f = z + 24 - x + y/2
 ### Q. For each C statement above, what is the corresponding MIPS code?
 	a.
-	 		sll $t0, $s1, 2
-	 		add $t1, $t0, $s2
-	 		sub $s0, $t1, $s3
+	 sll $t0, $s1, 2
+	 add $t1, $t0, $s2
+	 sub $s0, $t1, $s3
 	b.
-	 		addi $t0, $s3, 24
-	 		sub  $t1, $t0, $s1
-	 		srl  $t2, $s2, 1
-	 		add  $s0, $t1, $t2
+	 addi $t0, $s3, 24
+	 sub  $t1, $t0, $s1
+	 srl  $t2, $s2, 1
+	 add  $s0, $t1, $t2
 ### Q. How many bits are needed in the register file to store the data for each C statement?
-	a. addi $s0, $s1, -100
-	b. sll $s0, $s0, 4
-### Q. How can the two MIPS instructions above be represented using C code?
-	a.
-	b.
+	a. 192 bits
+	b. 192 bits
 	
-a. f = x - 100
-b. f = f << 4
+a. addi $s0, $s1, -100
+
+b. sll $s0, $s0, 4
+### Q. How can the two MIPS instructions above be represented using C code?
+	a. f = x - 100
+	b. f = f << 4
 ### Q. Why are constants in I-type instructions represented in 2's complement format?
 	(1) Simplify the operation rules by enabling the sign bit to participate in the operation together with the rms part.
 	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
