@@ -30,7 +30,7 @@ b. sll $s0, $s0, 4
 	(1) Simplify the operation rules by enabling the sign bit to participate in the operation together with the rms part.
 	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
 ### Q. What is the largest value (in decimal) that can be represented in the immediate filed of an I-type instruction?
-	2^^16
+	2^^15-1/+32,767
 	
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
@@ -44,12 +44,12 @@ b. sll $s0, $s0, 4
 	A. a.
 	   b.
 ## 4. A.
- ```if(i == j){
+  ```if(i == j){
 	f = g + h
    }else{
 	f = f + 1
    }
-```
+  ```
 
 ## 5. 
 ### Q.For the binary entries above, what MIPS instructions do they represent?
