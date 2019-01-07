@@ -57,9 +57,9 @@ b. sll $s0, $s0, 4
 ### Q. Translate the following MIPS code to C code.
   ```
   if(i == j){
-	f = g + h
+	f = g + h;
    }else{
-	f = f + 1
+	f = f + 1;
    }
   ```
 
