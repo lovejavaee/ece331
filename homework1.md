@@ -14,18 +14,18 @@ b. f = z + 24 - x + y/2
 	 srl  $s2, $s2, 1
 	 add  $s0, $s0, $s2
 ### Q. How many bits are needed to encode the above instructions for each C statement?
-	a. 3*32bits=96 bits
-	b. 4*32bits=128 bits
+	a. 3*32 bits = 96 bits
+	b. 4*32 bits = 128 bits
 ### Q. How many bits are needed in the register file to store the data for each C statement?
-	a. 4*32=128 bits
-	b. 4*32=128 bits
+	a. 4*32 bits = 128 bits
+	b. 4*32 bits = 128 bits
 	
 a. addi $s0, $s1, -100
 
 b. sll $s0, $s0, 4
 ### Q. How can the two MIPS instructions above be represented using C code?
 	a. f = x - 100
-	b. f = f << 4
+	b. f = f * 16
 ### Q. Why are constants in I-type instructions represented in 2's complement format?
 	(1) Simplify the operation rules by enabling the sign bit to participate in the operation together with the rms part.
 	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
