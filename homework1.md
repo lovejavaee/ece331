@@ -43,8 +43,10 @@ b. sll $s0, $s0, 4
 ### Q. For the C statements, how many different registers are needed to carry out the C statements.
 	a.
 	b.
-## 4. A.
-  ```if(i == j){
+## 4.
+### Q. Translate the following MIPS code to C code.
+  ```
+  if(i == j){
 	f = g + h
    }else{
 	f = f + 1
