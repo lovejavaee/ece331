@@ -71,8 +71,8 @@ b. sll $s0, $s0, 4
 	b. R-type
 ## 6.
 ### Q.For the instructions above, show the hexadecimal representations of the instructions.
-	a. 0x012A8022(000000	01001	01010	10000	00000	100010)
-	b. 0x8D100008(100011	01000	10000	0000000000001000)
+	a. 0x012A8022(000000 01001 01010 10000 00000 100010)
+	b. 0x8D100008(100011 01000 10000 0000000000001000)
 ### Q.Indicate the type of each instruction
 	a. R-type
 	b. I-type
