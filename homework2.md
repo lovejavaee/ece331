@@ -43,14 +43,15 @@ Conditional branch instruction that occurs when the contents of two registers ar
 
 ## 6
 ### Why not?
-In integers, by using 2's complement for negative numbers makes the arithmetic easy; 
-we can add two numbers together without thinking about whether number is positive or negative, and get the right answer.
-This won't work for floating point numbers because the exponents need to be manipulated; 
+In integers, by using 2's complement for negative numbers makes the arithmetic easy.
+we can add two numbers together without thinking about whether number is positive or negative, and get the right answer. 
+This won't work for floating point numbers because the exponents need to be manipulated; if we are using a 2's complement representation for the entire word we'd have to reconstruct the exponent any time we wanted to add or subtract, so it wouldn't gain us anything; in fact, trying to do arithmetic involving a negative number would involve converting it to positive first.
+
 ### What number is indicated if the value stored in the exponent is zero?
-if we are using a 2's complement representation for the entire word we'd have to reconstruct the exponent any time we wanted to add or subtract, so it wouldn't gain us anything; in fact, trying to do arithmetic involving a negative number would involve converting it to positive first. 
+The exponent equals zero can be used to represent the smallest number.
+
 ### What exponent and fraction are used to represent "not-a-number"?
-The exponent = 0 can be used to represent the smallest number.
-To represent NaN (Not a number) : if all bits of exponent are 1, and any of the mantissa bits are 1.
+To represent NaN (Not a number) : if all bits of exponent are 1, and any of the matissa bits are 1
 
 ## 7
 ![7-a](https://github.com/lovejavaee/ece331/blob/homework2/images/7-a.png?raw=true)
