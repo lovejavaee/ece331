@@ -9,10 +9,10 @@ b. f = z + 24 - x + y/2
 	 add $s0, $s1, $s2
 	 sub $s0, $s0, $s3
 	b.
-	 addi $t0, $s3, 24
-	 sub  $t1, $t0, $s1
-	 srl  $t2, $s2, 1
-	 add  $s0, $t1, $t2
+	 addi $s0, $s3, 24
+	 sub  $s0, $s0, $s1
+	 srl  $s2, $s2, 1
+	 add  $s0, $t1, $s2
 ### Q. How many bits are needed to encode the above instructions for each C statement?
 	a. 96 bits
 	b. 128 bits
