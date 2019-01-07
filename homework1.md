@@ -14,11 +14,11 @@ b. f = z + 24 - x + y/2
 	 srl  $s2, $s2, 1
 	 add  $s0, $s0, $s2
 ### Q. How many bits are needed to encode the above instructions for each C statement?
-	a. 96 bits
-	b. 128 bits
+	a. 3*32bits=96 bits
+	b. 4*32bits=128 bits
 ### Q. How many bits are needed in the register file to store the data for each C statement?
-	a. 128 bits
-	b. 128 bits
+	a. 4*32=128 bits
+	b. 4*32=128 bits
 	
 a. addi $s0, $s1, -100
 
@@ -30,7 +30,7 @@ b. sll $s0, $s0, 4
 	(1) Simplify the operation rules by enabling the sign bit to participate in the operation together with the rms part.
 	(2) Converting the subtraction operation into an addition operation, further simplifying the circuit design of the arithmetic unit in the computer.
 ### Q. What is the largest value (in decimal) that can be represented in the immediate filed of an I-type instruction?
-	2^^15-1
+	2^15-1
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
 	a. lw  $t1, 4($s1), 4($s2
