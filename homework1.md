@@ -36,7 +36,7 @@ b. sll $s0, $s0, 4
 	a. lw $t1, 4($s1)
 	   lw $t2, 4($s2)
 	   lw $t3, 12($2)
-	   add $t1, $t1, $t2
+	   add $t1, $t1, $t3
 	   add $t1, $t1, $t2
 	   sw  $t1, 4($3)
 	b. lw  $t1, 8($s1)
