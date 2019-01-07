@@ -34,15 +34,15 @@ b. sll $s0, $s0, 4
 	
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
-	A. a. lw $t0, 4($s1), 4($s2)
-		  add 4($s3), $t0, 12($s2)
-	   b. sub 8($s3), 8($s1), 8($s2)
+	a. lw  $t0, 4($s1), 4($s2)
+	   add 4($s3), $t0, 12($s2)
+	b. sub 8($s3), 8($s1), 8($s2)
 ### Q. For the C statements above, how many MIPS assembly instructions are needed to perform each C statement?
-	A. a. 3
-	   b. 1
+	a. 3
+	b. 1
 ### Q. For the C statements, how many different registers are needed to carry out the C statements.
-	A. a.
-	   b.
+	a.
+	b.
 ## 4. A.
   ```if(i == j){
 	f = g + h
