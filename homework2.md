@@ -51,7 +51,7 @@ This won't work for floating point numbers because the exponents need to be mani
 The exponent equals zero can be used to represent the smallest number.
 
 ### What exponent and fraction are used to represent "not-a-number"?
-To represent NaN (Not a number) : if all bits of exponent are 1, and any of the matissa bits are 1
+when all bits of exponent are 1, and any of the mantissa bits are 1.
 
 ## 7
 ![7-a](https://github.com/lovejavaee/ece331/blob/homework2/images/7-a.png?raw=true)
