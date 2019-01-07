@@ -6,8 +6,8 @@ b. f = z + 24 - x + y/2
 ### Q. For each C statement above, what is the corresponding MIPS code?
 	a.
 	 sll $t0, $s1, 2
-	 add $t1, $t0, $s2
-	 sub $s0, $t1, $s3
+	 add $t0, $t0, $s2
+	 sub $s0, $t0, $s3
 	b.
 	 addi $t0, $s3, 24
 	 sub  $t1, $t0, $s1
@@ -33,12 +33,12 @@ b. sll $s0, $s0, 4
 	2^^15-1
 ## 2.
 ### Q. For the C statements above, what is the corresponding MIPS assembly code?
-	a. lw  $t0, 4($s1), 4($s2
+	a. lw  $t1, 4($s1), 4($s2
 	   add 4($s3), $t0, 12($s2)
 	b. lw  $t1, 8($s1)
 	   lw  $t2, 8($s2)
 	   sub $t1, $t1, $t2
-	   sw  $t1, sub 8($s3)
+	   sw  $t1, 8($s3)
 ### Q. For the C statements above, how many MIPS assembly instructions are needed to perform each C statement?
 	a. 3
 	b. 4
