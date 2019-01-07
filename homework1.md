@@ -44,10 +44,10 @@ b. sll $s0, $s0, 4
 	   sub $t1, $t1, $t2
 	   sw  $t1, 8($s3)
 ### Q. For the C statements above, how many MIPS assembly instructions are needed to perform each C statement?
-	a. 3
+	a. 6
 	b. 4
 ### Q. For the C statements, how many different registers are needed to carry out the C statements.
-	a. 4
+	a. 6
 	b. 5
 ## 3.
 ### Q. What is the value of G?
